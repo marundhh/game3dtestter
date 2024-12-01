@@ -7,7 +7,7 @@ public class WeaponManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject weapon;
-    public vThirdPersonController tcp;
+    
 
     public void EnableMovement(bool enable)
     {

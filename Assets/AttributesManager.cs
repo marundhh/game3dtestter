@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,7 +21,19 @@ public class AttributesManager : MonoBehaviour
             amount.ToString(),
             Color.yellow
             );
+        if (gameObject.CompareTag("Enemy"))
+        {
+            if (health <= 0)
+            {
+                EnemyDie();
+            }
+        }
     }
+
+    public void EnemyDie() 
+     {
+            Debug.Log("ke thu die");   
+     }
     public void DealDamage(GameObject target)
     {
         var atm = target.GetComponent<AttributesManager>();
