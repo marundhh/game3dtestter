@@ -65,10 +65,10 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 437607859882442547}
-    m_Position: {x: 280, y: 160, z: 0}
+    m_Position: {x: 260, y: 150, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8394182682515541456}
-    m_Position: {x: 590, y: 160, z: 0}
+    m_Position: {x: 570, y: 160, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -134,8 +134,8 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
+  m_TransitionDuration: 0.24999988
+  m_TransitionOffset: 0.7664751
   m_ExitTime: 0.75
   m_HasExitTime: 0
   m_HasFixedDuration: 1
@@ -159,7 +159,7 @@ AnimatorStateTransition:
   m_Mute: 0
   m_IsExit: 0
   serializedVersion: 3
-  m_TransitionDuration: 0.25
+  m_TransitionDuration: 0.6078795
   m_TransitionOffset: 0
   m_ExitTime: 0.75
   m_HasExitTime: 0
@@ -182,8 +182,8 @@ AnimatorStateTransition:
   m_IsExit: 0
   serializedVersion: 3
   m_TransitionDuration: 0.25
-  m_TransitionOffset: 0
-  m_ExitTime: 0.8958333
+  m_TransitionOffset: 0.07449873
+  m_ExitTime: 0.8958334
   m_HasExitTime: 1
   m_HasFixedDuration: 1
   m_InterruptionSource: 0
@@ -290,7 +290,7 @@ AnimatorController:
   - serializedVersion: 5
     m_Name: Acttack
     m_StateMachine: {fileID: -4120349838891109644}
-    m_Mask: {fileID: 0}
+    m_Mask: {fileID: 31900000, guid: e09dc341c99b9954383e4ff58c95b704, type: 2}
     m_Motions: []
     m_Behaviours: []
     m_BlendingMode: 0
@@ -19690,7 +19690,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Slash
+  m_Name: Slashm
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
