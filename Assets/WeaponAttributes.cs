@@ -12,6 +12,12 @@ public class WeaponAttributes : MonoBehaviour
         {
             other.GetComponent<AttributesManager>().TakeDamage(atm.attack);
         }
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("Ênmy Chem player ");
+            other.GetComponent<AttributesManager>().TakeDamage(atm.attack);
+        }
+
     }
     void Start()
     {
